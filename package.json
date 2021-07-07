@@ -1,0 +1,26 @@
+{
+  "name": "accommodation-price-monitoring",
+  "version": "1.0.0",
+  "description": "Playground for getting average price of accommodation in certain location for today",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development node app.js | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanuwa/accommodation-price-monitoring.git"
+  },
+  "author": "Va Nuwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanuwa/accommodation-price-monitoring/issues"
+  },
+  "homepage": "https://github.com/vanuwa/accommodation-price-monitoring#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bunyan": "^1.8.15",
+    "config": "^3.3.6",
+    "js-yaml": "^4.1.0"
+  }
+}

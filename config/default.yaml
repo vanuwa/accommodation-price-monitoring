@@ -1,0 +1,7 @@
+app:
+  name: accommodation-price-monitoring
+  log_level: ALL
+sources:
+  expediacom:
+    base_url: https://www.expedia.com
+    uri: /Hotel-Search
